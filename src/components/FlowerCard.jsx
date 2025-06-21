@@ -1,6 +1,6 @@
 import React from "react";
 
-const FlowerCard = ({ card }) => {
+const FlowerCard = ({ card, selectedCard, idx}) => {
   return (
     <div className="relative h-full">
       <div
@@ -11,7 +11,9 @@ const FlowerCard = ({ card }) => {
           src={card.icon}
           alt=""
         />
-        <h1 className={`${card.textColor} text-lg font-bold rotate-90`}>
+        <h1 className={`
+        ${selectedCard === idx ? "rotate-0 text-6xl" : "text-lg rotate-90"} 
+        ${card.textColor} font-bold transition-all ease-in-out duration-[2000ms]`}>
           {card.title}
         </h1>
       </div>
