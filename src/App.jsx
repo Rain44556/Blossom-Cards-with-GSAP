@@ -8,7 +8,7 @@ function App() {
    <div className='h-screen flex justify-center items-center'>
        {cards.map((card) => {
         return (
-          <div className="h-96 cursor-pointer">
+          <div className="h-96 w-24 cursor-pointer">
             <FlowerCard card={card}></FlowerCard>
           </div>
         );
