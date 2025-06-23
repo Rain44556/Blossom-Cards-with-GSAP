@@ -20,9 +20,17 @@ const bgRef = useRef();
         if (`card-${idx}` === `card-${selectedCard}`) {
           gsap.to(bgRef.current, {
             backgroundColor: cards[idx].bgColor,
-            duration: 2,
+            duration: 1,
             ease: "none",
           });
+
+          gsap.to('.flower-img',{
+            top: "-140px",
+            delay: 0.7,
+            duration: 2,
+            ease: "none",
+          })
+
         }
       });
     });

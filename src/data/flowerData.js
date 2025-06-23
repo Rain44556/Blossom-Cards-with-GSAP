@@ -1,15 +1,15 @@
-import cherryBlossom from "../assets/flowers/cherryBlossom.jpg";
-import lavender from "../assets/flowers/lavender.jpg";
+import cherryBlossom from "../assets/flowers/cherryBlossom.png";
+import lavender from "../assets/flowers/lavender.png";
 import rose from "../assets/flowers/rose.jpg";
-import sunflower from "../assets/flowers/sunflower.jpg";
-import goldenMarguerite from "../assets/flowers/goldenMarguerite.jpg";
+import sunflower from "../assets/flowers/sunflower.png";
+import goldenMarguerite from "../assets/flowers/goldenMarguerite.png";
 
 
-import cherryBlossomIcon from "../assets/flowers/cherryBlossom-icon.png";
-import lavenderIcon from "../assets/flowers/lavender-icon.png";
-import roseIcon from "../assets/flowers/rose-icon.png";
-import sunflowerIcon from "../assets/flowers/sunflower-icon.png";
-import goldenMargueriteIcon from "../assets/flowers/goldenMarguerite-icon.png";
+// import cherryBlossomIcon from "../assets/flowers/cherryBlossom-icon.png";
+// import lavenderIcon from "../assets/flowers/lavender-icon.png";
+// import roseIcon from "../assets/flowers/rose-icon.png";
+// import sunflowerIcon from "../assets/flowers/sunflower-icon.png";
+// import goldenMargueriteIcon from "../assets/flowers/goldenMarguerite-icon.png";
 
 
 export const cards = [
@@ -18,7 +18,7 @@ export const cards = [
     bgCardColor: "bg-[#fcd5ce]",
     bgColor: "#f9c5bd",
     textColor: "text-[#8b4d3e]",
-    icon: cherryBlossomIcon,
+    icon: cherryBlossom,
     img: cherryBlossom,
     bgImg: cherryBlossom,
   },
@@ -27,7 +27,7 @@ export const cards = [
     bgCardColor: "bg-[#d8b4f8]",
     bgColor: "#c084fc",
     textColor: "text-[#4b0082]",
-    icon: lavenderIcon,
+    icon: lavender,
     img: lavender,
     bgImg: lavender,
   },
@@ -36,7 +36,7 @@ export const cards = [
     bgCardColor: "bg-[#ffccd5]",
     bgColor: "#ff758f",
     textColor: "text-[#800020]",
-    icon: roseIcon,
+    icon: rose,
     img: rose,
     bgImg: rose,
   },
@@ -45,7 +45,7 @@ export const cards = [
     bgCardColor: "bg-[#fff3b0]",
     bgColor: "#ffe066",
     textColor: "text-[#b08500]",
-    icon: sunflowerIcon,
+    icon: sunflower,
     img: sunflower,
     bgImg: sunflower,
   },
@@ -54,7 +54,7 @@ export const cards = [
   bgCardColor: "bg-[#ffd6a5]",
   bgColor: "#ffb347",
   textColor: "text-[#8b3a00]",
-  icon: goldenMargueriteIcon,
+  icon: goldenMarguerite,
   img: goldenMarguerite,
   bgImg: goldenMarguerite,
 }

@@ -4,7 +4,7 @@ const FlowerCard = ({ card, selectedCard, idx}) => {
   return (
     <div className="relative h-full">
       <div
-        className={` h-full rounded-lg ${card.bgCardColor} flex justify-center items-center`}
+        className={` h-full rounded-lg ${card.bgCardColor} z-10 relative flex justify-center items-center`}
       >
         <img
           className="absolute top-5 left-5 w-6 h-6 rounded-full"
@@ -17,6 +17,11 @@ const FlowerCard = ({ card, selectedCard, idx}) => {
           {card.title}
         </h1>
       </div>
+
+      <img src={card.img}
+      className={`${ 
+        selectedCard === idx ? "opacity-100" : "opacity-0"} z-1 flower-img w-52 absolute top-0 mx-auto`}
+      alt="" />
     </div>
   );
 };
