@@ -25,7 +25,7 @@ const bgRef = useRef();
           });
 
           gsap.to('.flower-img',{
-            top: "-140px",
+            top: "-190px",
             delay: 0.7,
             duration: 2,
             ease: "none",
