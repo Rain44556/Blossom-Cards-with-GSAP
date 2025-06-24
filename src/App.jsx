@@ -31,6 +31,29 @@ const bgRef = useRef();
             ease: "none",
           })
 
+
+    gsap.fromTo(".bg-flower",{
+        scale: 1.1,
+        x: -40,
+        y: -30,
+      },
+      {
+        scale: 1,
+        x: 0,
+        y: 0,
+        duration: 1.8,
+        ease: "power3.out",
+      }
+    );
+    gsap.to(".bg-flower", {
+      y: 10,
+      scale: 1.02,
+      repeat: -1,
+      yoyo: true,
+      ease: "sine.inOut",
+      duration: 3,
+    });
+
         }
       });
     });

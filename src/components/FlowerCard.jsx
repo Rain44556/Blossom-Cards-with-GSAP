@@ -7,12 +7,12 @@ const FlowerCard = ({ card, selectedCard, idx}) => {
   idx === selectedCard && (
     <div className="flex justify-between absolute w-screen h-screen top-0 left-0">
   <div className="flex p-10 flex-col justify-around">
-    <img className="w-40 rotate-12" src={card.bgImg} alt="" />
-    <img className="w-52 rotate-45" src={card.bgImg} alt="" />
+    <img className="bg-flower w-40 rotate-12" src={card.bgImg} alt="" />
+    <img className="bg-flower w-52 rotate-45" src={card.bgImg} alt="" />
   </div>
-   <div  className="flex flex-col justify-around">
-    <img className="w-32 rotate-[-90deg]" src={card.bgImg} alt="" />
-    <img className="w-40 rotate-90" src={card.bgImg} alt="" />
+   <div  className="flex p-10 flex-col justify-around">
+    <img className="bg-flower w-32 rotate-[-90deg]" src={card.bgImg} alt="" />
+    <img className="bg-flower w-40 rotate-90" src={card.bgImg} alt="" />
   </div>
 </div>
   )
@@ -36,7 +36,7 @@ const FlowerCard = ({ card, selectedCard, idx}) => {
 
       <img src={card.img}
       className={`${ 
-        selectedCard === idx ? "opacity-100" : "opacity-0"} z-1 flower-img w-54 absolute top-0 mx-auto`}
+        selectedCard === idx ? "opacity-100" : "opacity-0"} z-1 flower-img w-48 absolute top-0 mx-auto`}
       alt="" />
     </div>
    </>

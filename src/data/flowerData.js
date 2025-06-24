@@ -6,6 +6,9 @@ import goldenMarguerite from "../assets/flowers/goldenMarguerite.png";
 
 import bgCherry from "../assets/flowers/cherryBg.png";
 import bgLavender from "../assets/flowers/lavenderBg.png";
+import bgRose from "../assets/flowers/roseBg.png";
+import sunflowerBg from "../assets/flowers/sunflowerBg.png";
+import goldenMargueriteBg from "../assets/flowers/goldenMargueriteBg.png";
 
 import cherryBlossomIcon from "../assets/flowers/cherryIcon.png";
 import lavenderIcon from "../assets/flowers/lavenderIcon.png";
@@ -15,6 +18,24 @@ import goldenMargueriteIcon from "../assets/flowers/goldenMargueriteIcon.png";
 
 
 export const cards = [
+  {
+  title: "ROSE",
+  bgCardColor: "bg-[#ffccd5]",
+  bgColor: "#8B0000", 
+  textColor: "text-[#800020]",
+  icon: roseIcon,
+  img: rose,
+  bgImg: bgRose,
+},
+  {
+    title: "SUNFLOWER",
+    bgCardColor: "bg-[#fff799]",
+    bgColor: " #ffd700",
+    textColor: "text-[#b08500]",
+    icon: sunflowerIcon,
+    img: sunflower,
+    bgImg: sunflowerBg,
+  },
   {
     title: "CHERRY",
     bgCardColor: "bg-[#fcd5ce]",
@@ -33,31 +54,18 @@ export const cards = [
     img: lavender,
     bgImg: bgLavender,
   },
+
+
 {
-  title: "ROSE",
-  bgCardColor: "bg-[#ffccd5]",
-  bgColor: "#8B0000", 
-  textColor: "text-[#800020]",
-  icon: roseIcon,
-  img: rose,
-  bgImg: rose,
-},
-  {
-    title: "SUNFLOWER",
-    bgCardColor: "bg-[#fff3b0]",
-    bgColor: "#ffe066",
-    textColor: "text-[#b08500]",
-    icon: sunflowerIcon,
-    img: sunflower,
-    bgImg: sunflower,
-  },
- {
   title: "GOLDEN MARGUERITE",
-  bgCardColor: "bg-[#ffd6a5]",
-  bgColor: "#ffb347",
-  textColor: "text-[#8b3a00]",
+  bgCardColor: "bg-[#f7ffb6]",       
+  bgColor: "#ffef61",                
+  textColor: "text-[#b7791f]",       
   icon: goldenMargueriteIcon,
   img: goldenMarguerite,
-  bgImg: goldenMarguerite,
+  bgImg: goldenMargueriteBg,
 }
+
+
+
 ];
