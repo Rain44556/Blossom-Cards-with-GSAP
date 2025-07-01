@@ -36,7 +36,7 @@ const FlowerCard = ({ card, selectedCard, idx}) => {
 
       <img src={card.img}
       className={`${ 
-        selectedCard === idx ? "opacity-100" : "opacity-0"} z-1 flower-img w-48 absolute top-0 mx-auto`}
+        selectedCard === idx ? "opacity-100" : "opacity-0"} z-1 flower-img w-52 absolute top-0 mx-auto`}
       alt="" />
     </div>
    </>
